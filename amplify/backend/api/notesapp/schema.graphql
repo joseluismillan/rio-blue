@@ -1,6 +1,6 @@
-type Note @model {
+type Clientes @model {
   id: ID!
-  name: String!
-  description: String
-  image: String
+  nombre: String!
+  descripcion: String
+  logo: String
 }
